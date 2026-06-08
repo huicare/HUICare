@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.0.3 (Windows)"/>
+	<meta name="created" content="2026-06-08T04:13:17.881000000"/>
+	<meta name="changed" content="2026-06-08T07:52:19.852000000"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		h1 { margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
+		h1.cjk { font-family: "NSimSun"; font-size: 24pt; font-weight: bold }
+		h1.ctl { font-family: "Arial"; font-size: 24pt; font-weight: bold }
+		strong { font-weight: bold }
+		a:link { color: #000080; text-decoration: underline }
+		a:visited { color: #800000; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><h1 class="western" style="font-weight: normal">
+<font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">/*
+Base styles (Mobile First) */</font></font></h1>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">:root
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">--app-padding:
+16px;</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">body
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">margin:
+0;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">padding:
+0;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">width:
+100vw;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">overflow-x:
+hidden; /* Prevent horizontal scrolling */</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.dashboard-grid
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">display:
+grid;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">grid-template-columns:
+1fr; /* Single column on mobile */</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">gap:
+var(--spacing-md);</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">padding:
+var(--app-padding);</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">/*
+Tablet Enhancement */</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">@media
+(min-width: 600px) {</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.dashboard-grid
+{</font></font></p>
+<p style="font-weight: normal">    <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">grid-template-columns:
+repeat(2, 1fr);</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">/*
+Desktop Enhancement */</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">@media
+(min-width: 1024px) {</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.dashboard-grid
+{</font></font></p>
+<p style="font-weight: normal">    <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">grid-template-columns:
+repeat(3, 1fr);</font></font></p>
+<p style="font-weight: normal">    <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">max-width:
+1200px;</font></font></p>
+<p style="font-weight: normal">    <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">margin:
+0 auto;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+</body>
+</html>

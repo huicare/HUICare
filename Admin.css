@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.0.3 (Windows)"/>
+	<meta name="created" content="2026-06-08T04:13:17.881000000"/>
+	<meta name="changed" content="2026-06-08T07:41:12.631000000"/>
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		h1 { margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
+		h1.cjk { font-family: "NSimSun"; font-size: 24pt; font-weight: bold }
+		h1.ctl { font-family: "Arial"; font-size: 24pt; font-weight: bold }
+		strong { font-weight: bold }
+		a:link { color: #000080; text-decoration: underline }
+		a:visited { color: #800000; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><h1 class="western" style="font-weight: normal">
+<font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.admin-container
+{</font></font></h1>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">display:
+flex;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">min-height:
+100vh;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">background:
+#050505;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">color:
+#e0e0e0;</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.admin-sidebar
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">width:
+250px;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">background:
+#121212;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">border-right:
+2px solid #D4AF37;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">padding:
+20px;</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.admin-grid
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">display:
+grid;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">grid-template-columns:
+repeat(auto-fit, minmax(200px, 1fr));</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">gap:
+20px;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">width:
+100%;</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.stat-card
+{</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">background:
+#1a1a1a;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">border:
+1px solid #333;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">padding:
+20px;</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">border-radius:
+8px;</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+<p style="font-weight: normal"><br/>
+<br/>
+
+</p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">/*
+Telegram Mobile Optimization */</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">@media
+(max-width: 768px) {</font></font></p>
+<p style="font-weight: normal">  <font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">.admin-sidebar
+{ display: none; } /* Hide and use bottom nav */</font></font></p>
+<p style="font-weight: normal"><font face="Times New Roman, serif"><font size="4" style="font-size: 14pt">}</font></font></p>
+</body>
+</html>
