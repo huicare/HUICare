@@ -1,6 +1,22 @@
-import { createClient } from '@supabase/supabase-js';
-
-const supabaseUrl = 'https://dtqclmalwyyxhhoqhvxx.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR0cWNsbWFsd3l5eGhob3Fodnh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA4NTA4NzAsImV4cCI6MjA5NjQyNjg3MH0.j_PpFeUzUk5YkU6z2v4U_ULlSMxvrgjh7gRmtPrIrK0';
-
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+{
+  "version": 2,
+  "name": "huicare",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
